@@ -10,7 +10,7 @@ app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
 
 //loads the static resources
-app.use(express.static("public"))
+app.use(express.static("Public"))
 app.use(bodyParser.urlencoded({ extended: false }))
 
 //load controllers
